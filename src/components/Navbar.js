@@ -99,7 +99,7 @@ export default class Navbar extends React.Component {
               <li className="nav-item">
                 <a
                   className="navbar-brand navbar-brand-collapsed"
-                  href="#header"
+                  href="#main"
                   style={{ fontSize: '23px' }}
                 >
                   Laurynas Valiulis
