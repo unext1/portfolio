@@ -102,7 +102,7 @@ export default class Navbar extends React.Component {
                   href="#header"
                   style={{ fontSize: '23px' }}
                 >
-                  Start Bootstrap
+                  LV Portfolio
                 </a>
               </li>
               <li className="nav-item pt-1">
