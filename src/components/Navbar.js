@@ -101,7 +101,6 @@ export default class Navbar extends React.Component {
                   onClick={this.scrollTo}
                   className="navbar-brand navbar-brand-collapsed"
                   href="#header"
-                  data-section="main"
                   style={{ fontSize: '23px' }}
                 >
                   Start Bootstrap
