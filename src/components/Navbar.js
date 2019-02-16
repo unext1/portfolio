@@ -98,7 +98,6 @@ export default class Navbar extends React.Component {
               </li>
               <li className="nav-item">
                 <a
-                  onClick={this.scrollTo}
                   className="navbar-brand navbar-brand-collapsed"
                   href="#header"
                   style={{ fontSize: '23px' }}
