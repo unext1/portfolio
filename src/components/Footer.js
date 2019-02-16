@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { Link } from 'gatsby';
+
 const Footer = () => {
   return (
     <footer id="contact">
@@ -33,10 +35,10 @@ const Footer = () => {
           <div className="col-md-4">
             <ul className="list-inline quicklinks">
               <li className="list-inline-item">
-                <a href="#Privacy">Privacy Policy</a>
+                <Link to='privacy'>Privacy Policy</Link>
               </li>
               <li className="list-inline-item">
-                <a href="#Terms">Terms of Use</a>
+                <a href="#terms">Terms of Use</a>
               </li>
             </ul>
           </div>

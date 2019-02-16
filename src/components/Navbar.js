@@ -2,6 +2,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import { Link } from 'gatsby';
+
+
 export default class Navbar extends React.Component {
   state = {
     navbarOpen: false
@@ -18,10 +21,6 @@ export default class Navbar extends React.Component {
         this.setState({ scrolled: false });
       }
     });
-  };
-
-  componentWillUnmount = () => {
-    window.removeEventListener('scroll');
   };
 
   burgerToggle = () => {
@@ -69,9 +68,9 @@ export default class Navbar extends React.Component {
         id="mainNav"
       >
         <div className="container">
-          <a className="navbar-brand navbar-brand-ncollapsed" href="#header" style={{ fontSize: '23px' }}>
-            Start Bootstrap
-          </a>
+          <Link to="/" className="navbar-brand navbar-brand-ncollapsed" style={{ fontSize: '23px' }}>
+            Laurynas Valiulis
+          </Link>
           <button
             className="navbar-toggler navbar-toggler-right"
             type="button"
@@ -97,15 +96,13 @@ export default class Navbar extends React.Component {
                 </a>
               </li>
               <li className="nav-item">
-                <a
-                  onClick={this.scrollTo}
+                <Link
+                  to='/'
                   className="navbar-brand navbar-brand-collapsed"
-                  href="#header"
-                  data-section="main"
                   style={{ fontSize: '23px' }}
                 >
-                  Start Bootstrap
-                </a>
+                  Laurynas Valiulis
+                </Link>
               </li>
               <li className="nav-item pt-1">
                 <a onClick={this.scrollTo} className="nav-link" href="#projects" data-section="projects">

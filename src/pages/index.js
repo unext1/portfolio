@@ -12,7 +12,7 @@ import Footer from '../components/Footer';
 const IndexPage = () => (
   <Layout>
     <SEO id="Main" title="Home" keywords={['gatsby', 'website', 'react', 'portfolio']} />
-    <header className="text-center text-white d-flex animated fadeIn" style={{ flexDirection: 'column' }} id="header">
+    <header className="text-center text-white d-flex animated fadeIn" style={{ flexDirection: 'column' }} id="main">
       <div className="container my-auto mt-5" style={{ position: 'relative' }}>
         <div className="mx-auto">
           <div className="header-title-card">
