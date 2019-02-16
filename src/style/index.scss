@@ -1,5 +1,5 @@
-@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
-@import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css");
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css');
 
 @import 'bootstrap/bootstrap';
 
@@ -24,7 +24,7 @@ main {
   height: 100%;
 }
 
-// Mano 
+// Mano
 
 .bg-black {
   background-color: #161616;
@@ -124,6 +124,11 @@ nav {
   }
 }
 
+.navbar-light .navbar-brand:hover,
+.navbar-light .navbar-brand:focus {
+  color: black;
+}
+
 nav .navbar-toggler:focus {
   outline: none;
 }
@@ -183,7 +188,6 @@ nav .navbar-toggler:focus {
 @media (min-width: 992px) {
   .hr-project1 {
     margin-right: 250px;
-
   }
 }
 
@@ -379,7 +383,6 @@ ul a:hover {
   color: white;
 }
 
-
 .projects-section {
   padding: 10rem 0;
   .featured-text {
@@ -394,7 +397,17 @@ ul a:hover {
     font-size: 90%;
     @media (min-width: 992px) {
       padding: 5rem;
-
     }
   }
+}
+
+// Privacy
+
+#privacy {
+  margin-top: 100px;
+  box-shadow: 0px 0px 20px -2px rgba(0, 0, 0, 0.75);
+  border-radius: 13px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
 }
