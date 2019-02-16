@@ -102,7 +102,7 @@ export default class Navbar extends React.Component {
                   href="#header"
                   style={{ fontSize: '23px' }}
                 >
-                  LV Portfolio
+                  Laurynas Valiulis
                 </a>
               </li>
               <li className="nav-item pt-1">
