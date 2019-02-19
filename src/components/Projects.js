@@ -10,12 +10,17 @@ const Projects = () => {
           </div>
         </div>
         <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
-          <div className="col-lg-6">
+          <div className="col-lg-6 photo-effect">
             <img
               className="img-fluid"
+              id="project1"
               src="https://headlight.eu/wp-content/uploads/2017/11/berlin-k-star-black-500x700-1-700x500.jpg"
               alt="My-Project1"
             />
+            <div className="overlay" />
+            <div className="button">
+              <a href="#project1"> Project </a>
+            </div>
           </div>
           <div className="col-lg-6">
             <div className="bg-black text-center h-100 project">
@@ -34,12 +39,17 @@ const Projects = () => {
         </div>
 
         <div className="row justify-content-center no-gutters">
-          <div className="col-lg-6">
+          <div className="col-lg-6 photo-effect">
             <img
               className="img-fluid"
+              id="project2"
               src="https://hauteliving.com/wp-content/uploads/2016/03/Hublot-Big-Bang-Unico-Sapphire-All-Black-3-1024x682.jpg"
               alt="My-Project1"
             />
+            <div className="overlay" />
+            <div className="button">
+              <a href="#project2"> Project </a>
+            </div>
           </div>
           <div className="col-lg-6 order-lg-first">
             <div className="bg-black text-center h-100 project">

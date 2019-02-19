@@ -2,8 +2,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { Link } from 'gatsby';
-
+import { Link, navigate } from 'gatsby';
 
 export default class Navbar extends React.Component {
   state = {
@@ -42,16 +41,16 @@ export default class Navbar extends React.Component {
 
   scrollTo = e => {
     e.preventDefault();
-
     const { section } = e.currentTarget.dataset;
     if (section) {
-      const element = document.getElementById(section);
-      if (element) {
-        window.scrollTo({
-          top: element.offsetTop - 100,
-          behavior: 'smooth'
-        });
+      let element = document.getElementById(section);
+      if (!element) {
+        return navigate('/');
       }
+      window.scrollTo({
+        top: element.offsetTop - 100,
+        behavior: 'smooth'
+      });
     }
     this.addActive(e.currentTarget);
   };
@@ -96,11 +95,7 @@ export default class Navbar extends React.Component {
                 </a>
               </li>
               <li className="nav-item">
-                <Link
-                  to='/'
-                  className="navbar-brand navbar-brand-collapsed"
-                  style={{ fontSize: '23px' }}
-                >
+                <Link to="/" className="navbar-brand navbar-brand-collapsed" style={{ fontSize: '23px' }}>
                   Laurynas Valiulis
                 </Link>
               </li>
