@@ -1,7 +1,5 @@
 import React from 'react';
 
-import { Link } from 'gatsby';
-
 const Footer = () => {
   return (
     <footer id="contact">
@@ -29,16 +27,6 @@ const Footer = () => {
                 <a href="#twitter">
                   <i className="fa fa-twitter" />
                 </a>
-              </li>
-            </ul>
-          </div>
-          <div className="col-md-4">
-            <ul className="list-inline quicklinks">
-              <li className="list-inline-item">
-                <Link to='privacy'>Privacy Policy</Link>
-              </li>
-              <li className="list-inline-item">
-                <a href="#terms">Terms of Use</a>
               </li>
             </ul>
           </div>
