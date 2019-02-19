@@ -420,24 +420,25 @@ ul a:hover {
   background: rgba(0, 0, 0, .3);
 }
 
-.button {
+.photo-button {
   position: absolute;
-  width: 500px;
+  width: 100%;
   left: 0;
-  top: 180px;
+  top: 50%;
   text-align: center;
   opacity: 0;
   transition: opacity .35s ease;
 }
 
-.button a {
+.photo-button a {
   width: 150px;
   padding: 12px 48px;
   text-align: center;
   color: white;
   border: solid 2px white;
+  text-decoration: none;
 }
 
-.photo-effect:hover .button {
+.photo-effect:hover .photo-button {
   opacity: 1;
 }

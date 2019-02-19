@@ -18,7 +18,7 @@ const Projects = () => {
               alt="My-Project1"
             />
             <div className="overlay" />
-            <div className="button">
+            <div className="photo-button">
               <a href="#project1"> Project </a>
             </div>
           </div>
@@ -47,7 +47,7 @@ const Projects = () => {
               alt="My-Project1"
             />
             <div className="overlay" />
-            <div className="button">
+            <div className="photo-button">
               <a href="#project2"> Project </a>
             </div>
           </div>
