@@ -16,26 +16,22 @@ const IndexPage = () => (
       <div className="container my-auto mt-5" style={{ position: 'relative' }}>
         <div className="mx-auto">
           <div className="header-title-card">
-            <h1 className="text-uppercase mb-3">
-              <strong className="display-4 header-title">Howdy, I'm <b className="index-text">Laurynas Valiulis</b></strong>
+            <h1 className="mb-3">
+              <strong className="display-5 header-title">Hello, I'm Laurynas Valiulis</strong>
             </h1>
           </div>
         </div>
       </div>
-      
       <a href="#mySection">
         <div className="arrow-down" />
       </a>
     </header>
-
-    <Section />
 
     <Services />
 
     <Projects />
 
     <Footer />
-    
   </Layout>
 );
 

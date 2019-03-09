@@ -2,11 +2,12 @@ import React from 'react';
 
 const Projects = () => {
   return (
-    <section id="projects" className="projects-section bg-light">
+    <section id="projects" className="projects-section">
       <div className="container">
         <div className="row">
           <div className="mb-5 col-lg-12 text-center">
             <h2 className="text-uppercase">My Projects</h2>
+            <hr className="hr-main" />
           </div>
         </div>
         <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
@@ -19,7 +20,10 @@ const Projects = () => {
             />
             <div className="overlay" />
             <div className="photo-button">
-              <a href="#project1"> Project </a>
+              <a href="https://mygatsbytest.netlify.com/" target="blank">
+                {' '}
+                Wiew Project <i className="fa fa-arrow-right" aria-hidden="true" />
+              </a>
             </div>
           </div>
           <div className="col-lg-6">
@@ -48,7 +52,10 @@ const Projects = () => {
             />
             <div className="overlay" />
             <div className="photo-button">
-              <a href="#project2"> Project </a>
+              <a href="https://mygatsbytest.netlify.com/" target="blank">
+                {' '}
+                Wiew Project <i className="fa fa-arrow-right" aria-hidden="true" />
+              </a>
             </div>
           </div>
           <div className="col-lg-6 order-lg-first">

@@ -3,6 +3,7 @@ import React from 'react';
 const Section = () => {
   return (
     <section id="mySection" className=" bg-light text-center">
+
       <div className="justify-content-center">
         <div className="my-section-div">
           <p className="grey-text my-section-p">
