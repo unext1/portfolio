@@ -2,15 +2,10 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer id="contact">
-      <div className="container mt-5">
+    <footer id="contact" style={{ height: '150px' }}>
+      <div className="container">
         <div className="row">
-          <div className="col-md-4">
-            <span className="copyright">
-              {' '}
-              &copy; <b>L.V</b> 2019
-            </span>
-          </div>
+          <div className="col-md-4" />
           <div className="col-md-4">
             <ul className="list-inline social-buttons">
               <li className="list-inline-item">
@@ -29,6 +24,10 @@ const Footer = () => {
                 </a>
               </li>
             </ul>
+            <span className="copyright">
+              {' '}
+              Copyright &copy; <b>L.V</b> 2019
+            </span>
           </div>
         </div>
       </div>

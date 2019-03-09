@@ -13,7 +13,7 @@ export default class Navbar extends React.Component {
 
   componentDidMount = () => {
     window.addEventListener('scroll', () => {
-      const isTop = window.scrollY < 150;
+      const isTop = window.scrollY < 100;
       if (isTop !== true) {
         this.setState({ scrolled: true });
       } else {
@@ -31,13 +31,13 @@ export default class Navbar extends React.Component {
     }
   };
 
-  addActive = currentTarget => {
-    const foundActive = document.querySelector('.nav-link.active');
-    if (foundActive) {
-      foundActive.classList.remove('active');
-    }
-    currentTarget.classList.add('active');
-  };
+  // addActive = currentTarget => {
+  //   const foundActive = document.querySelector('.nav-link.active');
+  //   if (foundActive) {
+  //     foundActive.classList.remove('active');
+  //   }
+  //   currentTarget.classList.add('active');
+  // };
 
   scrollTo = e => {
     e.preventDefault();
@@ -52,10 +52,11 @@ export default class Navbar extends React.Component {
         behavior: 'smooth'
       });
     }
-    this.addActive(e.currentTarget);
+    // this.addActive(e.currentTarget);
   };
 
   render() {
+
     return (
       <nav
         ref={this.navbar}
@@ -78,6 +79,7 @@ export default class Navbar extends React.Component {
             aria-controls="navToggler"
             aria-expanded="false"
             aria-label="Toggle navigation"
+            style={{color: "white"}}
             onClick={this.burgerToggle}
           >
             <span className="navbar-toggler-text">Menu</span> <i className="navbar-toggler-icon" />
