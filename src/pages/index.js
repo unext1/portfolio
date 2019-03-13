@@ -7,6 +7,7 @@ import SEO from '../components/seo';
 import Services from '../components/Services';
 import Projects from '../components/Projects';
 import Footer from '../components/Footer';
+// import Backscroll from '../components/Backscroll';
 
 const IndexPage = () => (
   <Layout>
@@ -25,6 +26,8 @@ const IndexPage = () => (
         <div className="arrow-down" />
       </a>
     </header>
+
+    {/* <Backscroll /> */}
 
     <Services />
 
