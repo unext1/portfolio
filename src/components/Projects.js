@@ -15,7 +15,7 @@ const Projects = () => {
             <img
               className="img-fluid"
               id="project1"
-              src="https://headlight.eu/wp-content/uploads/2017/11/berlin-k-star-black-500x700-1-700x500.jpg"
+              src="https://hauteliving.com/wp-content/uploads/2016/03/Hublot-Big-Bang-Unico-Sapphire-All-Black-3-1024x682.jpg"
               alt="My-Project1"
             />
             <div className="overlay" />

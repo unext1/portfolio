@@ -30,6 +30,55 @@ main {
   background-color: #161616;
 }
 
+.hr-main {
+  width: 100px;
+  height: 5px;
+  background-color: black;
+}
+
+.fa-eff:hover {
+  font-size: 5.5em;
+}
+
+.row-margin {
+  height: 204px;
+}
+
+#contactForm {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.form-btn {
+  border-radius: 30px;
+  width: 500px;
+}
+
+@media (max-width: 768px) {
+  .row-margin {
+    height: auto;
+  }
+}
+
+@media (max-width: 530px) {
+  #contactForm {
+    width: 300px;
+  }
+  .form-btn {
+    width: 300px;
+  }
+}
+
+.form-control {
+  border: 0px;
+  border-bottom: 1px solid black;
+  box-shadow: 0px 5px 10px -5px rgba(0, 0, 0, 0.75);
+}
+
+textarea {
+  resize: none;
+}
+
 // Navbar
 
 nav {
@@ -66,23 +115,6 @@ nav {
       }
     }
   }
-}
-
-@media (max-height: 735px) {
-  .navbar {
-    background-color: rgba($black, 0.5);
-    box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.45);
-  }
-
-  .navbar-light {
-    .navbar-brand {
-      color: white;
-    }
-  }
-}
-
-.navbar-light .navbar-nav .nav-link {
-  color: gray;
 }
 
 @media (max-width: 992px) {
@@ -124,11 +156,6 @@ nav {
   }
 }
 
-.navbar-light .navbar-brand:hover,
-.navbar-light .navbar-brand:focus {
-  color: black;
-}
-
 nav .navbar-toggler:focus {
   outline: none;
 }
@@ -141,33 +168,30 @@ nav .navbar-toggler:focus {
 .navbar-toggler-text {
   font-size: 15px;
 }
+@media (max-width: 992px) {
+  .navbar-light .navbar-brand:hover,
+  .navbar-light .navbar-brand:focus {
+    color: white;
+  }
 
-.navbar-light .navbar-nav .nav-link:focus {
-  color: black;
+  .navbar-light .navbar-nav .nav-link:hover,
+  .navbar-light .navbar-nav .nav-link:focus {
+    color: white;
+  }
 }
 
-.navbar-light .navbar-nav .nav-link:hover {
-  color: #585858
-}
-
-
+.navbar-dark .navbar-nav .nav-link,
+.navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link:focus {
   color: white;
 }
 
-.navbar-light .navbar-nav .nav-link {
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus {
   color: black;
 }
 
-.navbar-dark .navbar-nav .nav-link {
-  color: white;
-}
-
-@media (max-width: 992px) {
-  .navbar-dark .navbar-nav .nav-link {
-    color: white;
-  }
-}
 // Header
 
 .hr-project1 {
@@ -226,6 +250,10 @@ header {
   width: 200px;
   border-radius: 50%;
   box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.75);
+}
+
+.aboutme-photo:hover {
+  border: 1px solid white;
 }
 
 .aboutme {
@@ -390,6 +418,8 @@ ul a:hover {
   }
 }
 
+//Project
+
 .overlay {
   position: absolute;
   top: 0;
@@ -427,8 +457,4 @@ ul a:hover {
   opacity: 1;
 }
 
-.hr-main {
-  width: 100px;
-  height: 5px;
-  background-color: black;
-}
+//
