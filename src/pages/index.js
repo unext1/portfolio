@@ -4,7 +4,6 @@ import React from 'react';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 
-import Section from '../components/Section';
 import Services from '../components/Services';
 import Projects from '../components/Projects';
 import Footer from '../components/Footer';
@@ -22,7 +21,7 @@ const IndexPage = () => (
           </div>
         </div>
       </div>
-      <a href="#mySection">
+      <a href="#services">
         <div className="arrow-down" />
       </a>
     </header>

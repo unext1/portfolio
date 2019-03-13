@@ -11,23 +11,23 @@ const Services = () => {
               <hr className="hr-main" style={{ marginBottom: '50px' }} />
             </div>
           </div>
-          <div className="row text-center">
+          <div className="row text-center row-margin">
             <div className="col-md-4">
-              <i className="fa fa-home fa-5x" />
+              <i className="fa-eff fa fa-home fa-5x" />
               <h4 className="service-heading mt-2">
                 <b>Fast</b>
               </h4>
               <p className="text-muted">Fast load times and lag free interaction, my highest priority.</p>
             </div>
             <div className="col-md-4">
-              <i className="fa fa-heart fa-5x" />
+              <i className="fa-eff fa fa-heart fa-5x" />
               <h4 className="service-heading mt-2">
                 <b>Made With Love</b>
               </h4>
               <p className="text-muted">Is it really open source if it's not made with love?</p>
             </div>
             <div className="col-md-4">
-              <i className="fa fa-mobile fa-5x" style={{ fontWeight: 'bold' }} />
+              <i className="fa-eff fa fa-mobile fa-5x" style={{ fontWeight: 'bold' }} />
               <h4 className="service-heading mt-2">
                 <b>Responsive</b>
               </h4>
@@ -40,6 +40,7 @@ const Services = () => {
       <section>
         <div className="aboutme">
           <img
+            alt="MyPhoto"
             className="aboutme-photo"
             src="https://scontent.fgse1-1.fna.fbcdn.net/v/t1.0-9/40610517_1933389366699853_5395276653821689856_n.jpg?_nc_cat=100&_nc_ht=scontent.fgse1-1.fna&oh=bf90d539702c166732c4a754c9997b79&oe=5D19F33B"
           />
