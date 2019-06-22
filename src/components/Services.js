@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Mano from '../images/mano.jpg'
+
 const Services = () => {
   return (
     <>
@@ -42,7 +44,7 @@ const Services = () => {
           <img
             alt="MyPhoto"
             className="aboutme-photo"
-            src="https://scontent.fgse1-1.fna.fbcdn.net/v/t1.0-9/40610517_1933389366699853_5395276653821689856_n.jpg?_nc_cat=100&_nc_ht=scontent.fgse1-1.fna&oh=bf90d539702c166732c4a754c9997b79&oe=5D19F33B"
+            src={Mano}
           />
         </div>
         <div className=" bg-light">

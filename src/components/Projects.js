@@ -20,7 +20,7 @@ const Projects = () => {
             />
             <div className="overlay" />
             <div className="photo-button">
-              <a href="https://mygatsbytest.netlify.com/" target="blank">
+              <a href="/" target="blank">
                 {' '}
                 Wiew Project <i className="fa fa-arrow-right" aria-hidden="true" />
               </a>
@@ -52,7 +52,7 @@ const Projects = () => {
             />
             <div className="overlay" />
             <div className="photo-button">
-              <a href="https://mygatsbytest.netlify.com/" target="blank">
+              <a href="/" target="blank">
                 {' '}
                 Wiew Project <i className="fa fa-arrow-right" aria-hidden="true" />
               </a>

@@ -84,7 +84,7 @@ export default class Navbar extends React.Component {
           >
             <span className="navbar-toggler-text">Menu</span> <i className="navbar-toggler-icon" />
           </button>
-          <div className=" animated fadeInLeft faster collapse navbar-collapse " id="navToggler">
+          <div className="animated fadeInLeft faster collapse navbar-collapse " id="navToggler">
             <ul className="nav navbar-nav text-uppercase ">
               <li className="nav-item pt-1">
                 <a onClick={this.scrollTo} className="nav-link" href="#mySection" data-section="mySection">
