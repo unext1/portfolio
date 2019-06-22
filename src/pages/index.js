@@ -27,8 +27,6 @@ const IndexPage = () => (
       </a>
     </header>
 
-    {/* <Backscroll /> */}
-
     <Services />
 
     <Projects />
