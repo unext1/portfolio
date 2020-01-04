@@ -1,7 +1,5 @@
 import React from 'react';
 
-import Mano from '../images/mano.jpg'
-
 const Services = () => {
   return (
     <>
@@ -9,31 +7,28 @@ const Services = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-12 text-center">
-              <h2 className="section-heading text-uppercase">About</h2>
+              <h2 className="section-heading text-uppercase">Its meee...</h2>
               <hr className="hr-main" style={{ marginBottom: '50px' }} />
             </div>
           </div>
           <div className="row text-center row-margin">
-            <div className="col-md-4">
+            <div className="col-md-6">
               <i className="fa-eff fa fa-home fa-5x" />
               <h4 className="service-heading mt-2">
-                <b>Fast</b>
+                <b>Steam</b>
               </h4>
-              <p className="text-muted">Fast load times and lag free interaction, my highest priority.</p>
+              <a className="text-muted" target="__blank" href="https://steamcommunity.com/id/yungandangry/">
+                Press on me if you want to check out my steam profile.
+              </a>
             </div>
-            <div className="col-md-4">
-              <i className="fa-eff fa fa-heart fa-5x" />
+            <div className="col-md-6">
+              <i className="fa-eff fa fa-twitter fa-5x" />
               <h4 className="service-heading mt-2">
-                <b>Made With Love</b>
+                <b>Twitter</b>
               </h4>
-              <p className="text-muted">Is it really open source if it's not made with love?</p>
-            </div>
-            <div className="col-md-4">
-              <i className="fa-eff fa fa-mobile fa-5x" style={{ fontWeight: 'bold' }} />
-              <h4 className="service-heading mt-2">
-                <b>Responsive</b>
-              </h4>
-              <p className="text-muted">My layouts will work on any device, big or small.</p>
+              <a className="text-muted" target="__blank" href="https://twitter.com/UneXT14">
+                Press on me if you want to check out my twitter profile.
+              </a>
             </div>
           </div>
         </div>
@@ -44,7 +39,7 @@ const Services = () => {
           <img
             alt="MyPhoto"
             className="aboutme-photo"
-            src={Mano}
+            src="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/02/02eb3236b3d40b7683c23690c858de026261e5c5_full.jpg"
           />
         </div>
         <div className=" bg-light">
@@ -52,10 +47,10 @@ const Services = () => {
             <h3 className="aboutme-header">Who's this guy ?</h3>
             <hr className="hr-about" />
             <p className="aboutme-discription">
-              I am passionate about building excellent software that improves the lives of those around me. I specialize
-              in creating software for clients ranging from individuals and small-businesses all the way to large
-              enterprise corporations. All of my work is produced locally from Moscow, Idaho. What would you do if you
-              had a software expert available at your fingertips?
+              I'am just a random guy from an internet which sucks at art and the only thing he can kind of do is
+              program. I am passionate about it and just wanted to give a shot to win this competition :)
+              <hr />
+              Idk what i'am doing here.
             </p>
           </div>
         </div>

@@ -31,14 +31,6 @@ export default class Navbar extends React.Component {
     }
   };
 
-  // addActive = currentTarget => {
-  //   const foundActive = document.querySelector('.nav-link.active');
-  //   if (foundActive) {
-  //     foundActive.classList.remove('active');
-  //   }
-  //   currentTarget.classList.add('active');
-  // };
-
   scrollTo = e => {
     e.preventDefault();
     const { section } = e.currentTarget.dataset;
@@ -52,7 +44,7 @@ export default class Navbar extends React.Component {
         behavior: 'smooth'
       });
     }
-    // this.addActive(e.currentTarget);
+
   };
 
   render() {
@@ -69,7 +61,7 @@ export default class Navbar extends React.Component {
       >
         <div className="container">
           <Link to="/" className="navbar-brand navbar-brand-ncollapsed" style={{ fontSize: '23px' }}>
-            Laurynas Valiulis
+            Welcome
           </Link>
           <button
             className="navbar-toggler navbar-toggler-right"
@@ -87,28 +79,18 @@ export default class Navbar extends React.Component {
           <div className="animated fadeInLeft faster collapse navbar-collapse " id="navToggler">
             <ul className="nav navbar-nav text-uppercase ">
               <li className="nav-item pt-1">
-                <a onClick={this.scrollTo} className="nav-link" href="#mySection" data-section="mySection">
-                  About
-                </a>
-              </li>
-              <li className="nav-item pt-1">
                 <a onClick={this.scrollTo} className="nav-link" href="#sarvices" data-section="services">
-                  Services
+                  About Me
                 </a>
               </li>
               <li className="nav-item">
                 <Link to="/" className="navbar-brand navbar-brand-collapsed" style={{ fontSize: '23px' }}>
-                  Laurynas Valiulis
+                Welcome 
                 </Link>
               </li>
               <li className="nav-item pt-1">
                 <a onClick={this.scrollTo} className="nav-link" href="#projects" data-section="projects">
-                  Portfolio
-                </a>
-              </li>
-              <li className="nav-item pt-1">
-                <a onClick={this.scrollTo} className="nav-link" href="#contact" data-section="contact">
-                  Contact
+                  Dope Arts
                 </a>
               </li>
             </ul>

@@ -17,7 +17,7 @@ const IndexPage = () => (
         <div className="mx-auto">
           <div className="header-title-card">
             <h1 className="mb-3">
-              <strong className="display-5 header-title">Hello, I'm Laurynas Valiulis</strong>
+              <strong className="display-5 header-title">CSGOATSE ❤</strong>
             </h1>
           </div>
         </div>
