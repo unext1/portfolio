@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `LV Portfolio`,
-    description: `About me...`,
-    author: `@Laurynas`,
+    title: `csgoatse`,
+    description: `<3.`,
+    author: `@Unext14`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -11,11 +11,11 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/images`,
-      },
+        path: `${__dirname}/src/images`
+      }
     },
     `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
+    `gatsby-plugin-sharp`
     // {
     //   resolve: `gatsby-plugin-manifest`,
     //   options: {
@@ -31,5 +31,5 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.app/offline
     // 'gatsby-plugin-offline',
-  ],
+  ]
 };
